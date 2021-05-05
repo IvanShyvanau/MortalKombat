@@ -1,0 +1,27 @@
+{
+  "name": "mortalkombat",
+  "version": "1.0.0",
+  "description": "website the mortal kombat moovie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanShyvanau/MortalKombat.git"
+  },
+  "author": "Shev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanShyvanau/MortalKombat/issues"
+  },
+  "homepage": "https://github.com/IvanShyvanau/MortalKombat#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.6.0"
+  }
+}
