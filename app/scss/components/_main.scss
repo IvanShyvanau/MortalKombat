@@ -1,0 +1,46 @@
+.main{
+  max-width: 80%;
+  margin: auto;
+  padding: 7% 0;
+}
+
+.main-logo{
+  background-image: url(../images/main/film.png); 
+  height: 90px;
+  background-repeat: no-repeat;
+}
+
+
+.tags{
+  padding-top: 18px;
+  display: flex;
+  align-items: center;
+  @extend %font-default;
+  @include font($height: 1rem, $size: 1.6rem, $weigh: normal);
+  color: #E5E5E5;
+  opacity: 0.4;
+}
+
+.tags > * { 
+margin-right: 15px;
+}
+
+.age{
+  border: 1px solid #FFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 5px 5px;
+}
+
+.description{
+  width: 38%;
+  @extend %font-default;
+  @include font($height: 2.5rem, $size: 2.1rem, $weigh: normal);
+}
+
+.main-button{
+  display: flex;
+  padding-top: 36px;
+  flex-wrap: wrap;
+}
+

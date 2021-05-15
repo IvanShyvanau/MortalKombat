@@ -1,0 +1,16 @@
+//base
+@import"base/_normolize";
+ 
+//abstract
+@import"abstract/_constants";
+@import"abstract/_mixin";
+@import"abstract/_placeholders";
+
+//base
+@import"base/_base";
+
+
+//components
+@import"components/_header";
+@import"components/_main";
+@import"components/_buttons";

@@ -1,0 +1,16 @@
+html{
+  box-sizing: border-box;
+  font-size: 10px;
+  color: #fff;
+}
+
+body{
+background-color: #010202;  
+}
+  
+.wrapper{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #010202 -2.88%, rgba(1, 2, 2, 0.2) 44.9%), url(../images//backgrounds/cover.PNG) no-repeat top right;
+} 
+

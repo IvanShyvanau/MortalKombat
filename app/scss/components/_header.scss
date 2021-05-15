@@ -1,0 +1,47 @@
+.header{
+  max-width: 80%;
+  margin: auto;
+  padding: 56px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  @extend %font-prim;
+  @include font($height: 1rem, $size: 2.4rem, $weigh: 900);
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  @extend %transition;
+  &:hover{
+    color: $color-primary;
+  }
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.user-photo{
+  background-image: url(../images/us/aa.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+
+.user-name{
+  color: #fff;
+  @extend %font-default;
+  @include font($height: 1rem, $size: 1.6rem, $weigh: normal);
+  margin-right: 5px;
+}
+
+

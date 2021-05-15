@@ -1,0 +1,21 @@
+%transition {
+  transition: all .3s ease-out;
+}
+
+%font-default {
+  font-family: 'Source Sans Pro';
+  src: url('/app/fonts/SourceSansPro-Regular.woff2') format('woff2'),
+      url('/app/fonts/SourceSansPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+%font-prim {
+  font-family: 'Roboto';
+  src: url('/app/fonts/Roboto-Regular.woff2') format('woff2'),
+      url('/app/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

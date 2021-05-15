@@ -1,0 +1,30 @@
+.button{
+  display: flex;
+  @extend %font-default;
+  @include font($height: 2.5rem, $size: 1.6rem, $weigh: normal);
+  padding: 10px 25px 12px;
+  border-radius: 6px;
+  background: $color-default;
+  margin-right: 15px;
+  outline: none;
+  border: none;
+  @extend %transition;
+  &:hover{
+    background-color: $color-primary;
+    color: #fff;
+  }
+}
+
+.button__primery{
+}
+
+.button__default{
+  display: flex;
+  align-items: center;
+
+}
+
+.button-text{
+  vertical-align: text-bottom;
+  margin-left: 10px;
+}
