@@ -6,11 +6,28 @@ html{
 
 body{
 background-color: #010202;  
+
 }
-  
+
 .wrapper{
-  width: 100%;
+  width: $content-width;
   min-height: 100vh;
-  background: linear-gradient(90deg, #010202 -2.88%, rgba(1, 2, 2, 0.2) 44.9%), url(../images//backgrounds/cover.PNG) no-repeat top right;
+  background: linear-gradient(90deg, #010202 -2.88%, rgba(1, 2, 2, 0.2) 44.9%), url(../images//backgrounds/cover.PNG) no-repeat center right;
+  @include media-small{
+    background-size: 50%;
+  }
+  @include smaller-width{
+  height: auto;
+  padding-bottom: 800px;
+  background-position: bottom left;
+  }
+  @include media-mobile{
+    width: 95%;
+    background-size: 100%;
+    padding-bottom: 90px;
+    background-position: bottom left;
+
+  }
 } 
+
 

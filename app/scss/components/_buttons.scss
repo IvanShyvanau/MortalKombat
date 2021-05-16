@@ -8,23 +8,30 @@
   margin-right: 15px;
   outline: none;
   border: none;
+  color: #fff;
   @extend %transition;
   &:hover{
     background-color: $color-primary;
     color: #fff;
   }
+  @include media-mobile{
+    padding: 10px 16px 12px;
+  }
 }
 
-.button__primery{
-}
+
 
 .button__default{
   display: flex;
   align-items: center;
-
+  @include media-mobile{
+   }
 }
 
 .button-text{
   vertical-align: text-bottom;
   margin-left: 10px;
+  @include media-mobile{
+    display: none;
+  }
 }

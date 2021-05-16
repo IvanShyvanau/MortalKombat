@@ -2,18 +2,25 @@
   max-width: 80%;
   margin: auto;
   padding: 7% 0;
+  @include smaller-width{
+    padding-top: 1%;
+  }
 }
 
 .main-logo{
   background-image: url(../images/main/film.png); 
   height: 90px;
   background-repeat: no-repeat;
+  @include media-mobile{
+    background-size: 100%;
+  }
 }
 
 
 .tags{
   padding-top: 18px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   @extend %font-default;
   @include font($height: 1rem, $size: 1.6rem, $weigh: normal);
@@ -23,6 +30,11 @@
 
 .tags > * { 
 margin-right: 15px;
+@include media-mobile{
+  margin-bottom: 10px;
+  margin-right: 15px;
+  font-size: 1.4rem;
+}
 }
 
 .age{
@@ -36,11 +48,22 @@ margin-right: 15px;
   width: 38%;
   @extend %font-default;
   @include font($height: 2.5rem, $size: 2.1rem, $weigh: normal);
+    @include media-mobile{
+    font-size: 1.6rem;
+    width: 100%;
+  }
 }
 
 .main-button{
   display: flex;
   padding-top: 36px;
   flex-wrap: wrap;
+  @include media-mobile{
+    display: flex;
+    padding-top: 36px;
+    flex-wrap: nowrap;
+  }
 }
+
+
 

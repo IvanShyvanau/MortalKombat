@@ -5,6 +5,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @include smaller-width{
+    width: 28%;
+    display: flex;
+    margin-left: 140px;
+    
+  }
 }
 
 .logo{
